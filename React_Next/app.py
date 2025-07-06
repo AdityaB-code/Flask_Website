@@ -6,7 +6,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # === Config ===
-SOURCE_FOLDER = Path(r"E:")
+SOURCE_FOLDER = Path(r"D:")
 UPLOAD_URL = "http://192.168.231.21:5000/upload_zip"
 BATCH_SIZE = 20
 
